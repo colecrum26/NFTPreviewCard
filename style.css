@@ -1,9 +1,9 @@
-.root {
+:root {
   --softBlue: hsl(215, 51%, 70%);
   --cyan: hsl(178, 100%, 50%);
-  --vdarkBlueMBG: hsl(217, 54%, 11%);
-  --vdarkBlueCBG: hsl(216, 50%, 16%);
-  --vdarkBlueL: hsl(215, 32%, 27%);
+  --darkBlueMBG: hsl(217, 54%, 11%);
+  --darkBlueCBG: hsl(216, 50%, 16%);
+  --darkBlueL: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
 }
 
@@ -12,25 +12,63 @@ html {
 }
 
 body {
+    background-color: var(--darkBlueMBG);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkBlueCBG);
+    font-family: 'Outfit';
+}
+
+.Equilibrium{
+    height: 400px;
+
 }
 
 .NFTinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .NFT {
+    color: var(--white);
+    text-align: center;
 }
 
 p {
+    font-size: 18px;
 }
 
 .info {
+    color: var(--softBlue);
 }
 
 .pricing {
+    color: var(--cyan);
+}
+
+.timeLeft {
+    color: var(--softBlue);
+}
+
+.credit{
+    color: var(--softBlue);
 }
 
 .creator {
+    color: var(--white);
+}
+
+.attribution{
+    display: none;
 }
