@@ -1,8 +1,16 @@
-.root{
-    --softBlue: hsl(215, 51%, 70%);
-    --cyan: hsl(178, 100%, 50%);
-    --vdarkBlueMBG: hsl(217, 54%, 11%);
-    --vdarkBlueCBG: hsl(216, 50%, 16%);
-    --vdarkBlueL: hsl(215, 32%, 27%);
-    --white: hsl(0, 0%, 100%);
+.root {
+  --softBlue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --vdarkBlueMBG: hsl(217, 54%, 11%);
+  --vdarkBlueCBG: hsl(216, 50%, 16%);
+  --vdarkBlueL: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+    
 }
