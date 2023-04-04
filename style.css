@@ -74,6 +74,10 @@ p {
   vertical-align: middle;
 }
 
+#line {
+  border-bottom: 2px solid var(--darkBlueL);
+}
+
 .credit {
   color: var(--softBlue);
 }
