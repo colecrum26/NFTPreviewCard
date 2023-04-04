@@ -61,17 +61,12 @@ p {
   color: var(--cyan);
 }
 
-#ETH {
+#ETH, #clock {
   vertical-align: middle;
 }
 
 .timeLeft {
   color: var(--softBlue);
-  vertical-align: middle;
-}
-
-#clock {
-  vertical-align: middle;
 }
 
 #line {
@@ -80,6 +75,12 @@ p {
 
 .credit {
   color: var(--softBlue);
+}
+
+#JW {
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  width: 48px;
 }
 
 .creator {
