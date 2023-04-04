@@ -14,7 +14,6 @@ html {
 body {
   background-color: var(--darkBlueMBG);
   height: 100%;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,19 +24,21 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 16px;
   background-color: var(--darkBlueCBG);
   font-family: "Outfit";
 }
 
 .Equilibrium {
-  height: 300px;
+  height: 400px;
+  width: 400px;
   padding: 24px;
+  border-radius: 10%;
 }
 
 .NFTinfo {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   padding: 16px;
 }
 
@@ -60,8 +61,17 @@ p {
   color: var(--cyan);
 }
 
+#ETH {
+  vertical-align: middle;
+}
+
 .timeLeft {
   color: var(--softBlue);
+  vertical-align: middle;
+}
+
+#clock {
+  vertical-align: middle;
 }
 
 .credit {
