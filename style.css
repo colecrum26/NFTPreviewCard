@@ -41,6 +41,8 @@ body {
   flex-direction: column;
   padding: 16px;
 }
+/* TODO */
+/* bring in width so text wraps around */
 
 .NFT {
   color: var(--white);
@@ -58,16 +60,16 @@ p {
 .pricing {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: var(--cyan);
 }
 
-#ETH, #clock {
-  vertical-align: middle;
-}
-
-.timeLeft {
+#timeLeft {
   color: var(--softBlue);
 }
+
+/* TODO */
+/* relocate icons to be centered with text */
 
 #line {
   border-bottom: 2px solid var(--darkBlueL);
@@ -86,6 +88,9 @@ p {
 .creator {
   color: var(--white);
 }
+
+/* TODO */
+/* relocated image to be centered with text */
 
 .attribution {
   display: none;
