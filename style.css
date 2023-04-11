@@ -33,14 +33,15 @@ body {
 .Equilibrium {
   width: 85%;
   margin-top: 24px;
-  padding-bottom: 12px;
+  padding-bottom: 0px;
   border-radius: 8px;
 }
 
 .NFTinfo {
   display: flex;
   flex-direction: column;
-  padding: 12px;
+  margin-top: 8px;
+  padding: 12px 12px 12px 7px;
 
 }
 
@@ -58,8 +59,7 @@ p {
 
 .info {
   color: var(--softBlue);
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px 8px 20px;
   font-weight: 325;
 }
 
@@ -110,11 +110,11 @@ p {
 #JW {
   border: 2px solid var(--white);
   border-radius: 50%;
-  width: 30px;
+  width: 34px;
 }
 
 #creationOf {
-  padding-left: 20px;
+  padding-left: 18px;
 }
 
 .creator {
