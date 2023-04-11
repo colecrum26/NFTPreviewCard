@@ -95,7 +95,7 @@ p {
 #line {
   display: flex;
   align-self: center;
-  border-bottom: 2px solid var(--darkBlueL);
+  border-bottom: 1px solid var(--darkBlueL);
   width: 90%;
   
 }
