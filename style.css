@@ -64,22 +64,24 @@ p {
 
 .pricing {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  margin-bottom: 10px;
+}
+
+#price {
   color: var(--cyan);
   padding-left: 20px;
 }
 
 #timeLeft {
   color: var(--softBlue);
-
+  padding-right: 15px;
 }
 
 #clock {
   vertical-align: baseline;
 }
-/* TODO */
-/* relocate icons to be centered with text */
 
 #line {
   border-bottom: 2px solid var(--darkBlueL);
