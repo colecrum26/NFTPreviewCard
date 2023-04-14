@@ -15,6 +15,16 @@
     <title>Frontend Mentor | NFT preview card component</title>
     <link rel="stylesheet" href="./style.css" />
     <link href="https://fonts.google.com/specimen/Outfit" rel="stylesheet" />
+    <style media="screen, print">
+      @font-face {
+        font-family: "bodyFont";
+        src: url(https://fonts.google.com/specimen/Outfit);
+      }
+
+      .card {
+        font-family: "Outfit";
+      }
+    </style>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
     <script type="text/javascript">
@@ -27,9 +37,7 @@
       google.setOnLoadCallback(function () {
         WebFont.load({
           google: {
-            families: [
-              "Outfit: 300, 400, 600"
-            ],
+            families: ["Outfit: 300, 400, 600"],
           },
         });
       });
