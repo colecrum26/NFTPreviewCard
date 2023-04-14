@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font: inherit;
 }
 
 .card {
@@ -125,9 +126,9 @@ p {
   display: none;
 }
 
-@media screen and (max-width: 375px) {
-  html {
+@media screen and (max-width: 460px) {
+  body {
     height: 75%;
-  }
+    margin-top: 80px;
 }
-  
+} 
